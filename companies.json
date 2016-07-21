@@ -1,0 +1,46 @@
+
+{
+    "companies":
+    [
+        {
+            "name" : "Sephora",
+            "city" : "Burlington",
+            "province" : "Ontario",
+            "website" : "http://www.sephora.com/",
+            "phone" : "(905) 631-0505",
+            "image" : "sephora.png",
+            "longitude" : "-79.81997",
+            "latitude" : "43.32593"
+        },
+        {
+            "name" : "Sally Beauty Supply",
+            "city" : "Burlington",
+            "province" : "Ontario",
+            "website" : "http://www.sallybeauty.com/",
+            "phone" : "(905) 335-9614",
+            "image" : "sally.png",
+            "longitude" : "-79.80519",
+            "latitude" : "43.40505"
+        },
+        {
+            "name" : "Shoppers Drug Mart",
+            "city" : "Burlington",
+            "province" : "Ontario",
+            "website" : "http://www1.shoppersdrugmart.ca/en/home",
+            "phone" : "(905) 331-6502",
+            "image" : "shoppers.png",
+            "longitude" : "-79.81054",
+            "latitude" : "43.37371"
+        },
+        {
+            "name" : "Rexall Pharma Plus",
+            "city" : "Burlington",
+            "province" : "Ontario",
+            "website" : "http://www.rexall.ca/",
+            "phone" : "(905) 637-7795",
+            "image" : "rexall.png",
+            "longitude" : "-79.75335",
+            "latitude" : "43.36799"
+        }
+    ]
+}

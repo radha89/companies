@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>jQuery Mobile</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link rel="stylesheet" href="_css/jquery.mobile.css">
+	<link rel="stylesheet" href="_css/mystyles.css">
+
+	<script src="_js/jquery.js"></script>
+	<script src="_js/jquery.mobile.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3&language=en"></script>
+	<script src="_js/myscript.js"></script>
+	<style>
+
+	</style>
+</head>
+<body>
+	<div data-role="page" id="home" data-theme="a">
+		<header data-role="header">
+			<h3 class="ui-title ui-shadow">Radha Bhachu</h3>
+            <h3 class="ui-title ui-shadow">991 381 992</h3>
+		</header>
+
+		<section class="ui-content" role="main">
+			<!-- Need a collapsible-set in order to use refresh for a dynamic build -->
+			<div id="menu" data-role="collapsible-set">
+
+			</div>			
+		</section>
+
+		<footer data-role="footer" class="ft">
+
+		</footer>
+	</div>
+
+    <div data-role="page" id="about" data-theme="a">
+        <header data-role="header">
+            <h3 class="ui-title ui-shadow">Radha Bhachu</h3>
+            <h3 class="ui-title ui-shadow">991 381 992</h3>
+        </header>
+
+        <div>
+            <p>Name: Radha Bhachu</p>
+            <p>Program: Computer Programmer</p>
+            <p>Student Number: 991 381 992</p>
+            <p>Favourite Quote: "You miss 100 percent of the shots you never take." - Wayne Gretzky</p>
+            <p>Picture: <img src="_images/radha.jpg" width="20%" height="20%"></p>
+        </div>
+
+        <footer data-role="footer" class="ft">
+
+        </footer>
+
+    </div>
+
+    <div data-role="page" id="individual" data-theme="a">
+        <header data-role="header">
+            <h3 class="ui-title ui-shadow">Radha Bhachu</h3>
+            <h3 class="ui-title ui-shadow">991 381 992</h3>
+        </header>
+
+        <h2 id="heading"></h2>
+        <section id="bottom">
+            <div id="map_canvas" style="height:400px; width:400px;"></div>
+        </section>
+
+        <footer data-role="footer" class="ft">
+
+        </footer>
+
+    </div>
+
+</body>
+</html>

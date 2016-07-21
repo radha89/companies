@@ -1,0 +1,15 @@
+
+.ui-icon-about:after { background-image: url("images/lipsticks.png"); background-size: 22px 22px; }
+.ui-icon-sheridan:after { background-image: url("images/sheridan.png"); background-size: 22px 22px; }
+.ui-icon-ulta:after { background-image: url("images/ulta.png"); background-size: 22px 22px; }
+
+p {
+    font-size: 0.75em;
+}
+
+#map_canvas {
+    width: auto;
+    height: auto;
+}
+
+
